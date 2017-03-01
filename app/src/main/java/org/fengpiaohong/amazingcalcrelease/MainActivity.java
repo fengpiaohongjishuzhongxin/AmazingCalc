@@ -82,7 +82,7 @@ public class MainActivity extends Activity {
 
         task = new MyTimerTask(handler);
         timer.schedule(task,0,100);
-        Toast.makeText(this,"123123",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"The Fist Test!",Toast.LENGTH_LONG).show();
     }
 
     //退出activity时,停止timer
