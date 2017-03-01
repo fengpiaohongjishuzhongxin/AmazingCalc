@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 
@@ -81,6 +82,7 @@ public class MainActivity extends Activity {
 
         task = new MyTimerTask(handler);
         timer.schedule(task,0,100);
+        Toast.makeText(this,"123123",Toast.LENGTH_LONG).show();
     }
 
     //退出activity时,停止timer
